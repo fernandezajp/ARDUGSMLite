@@ -11,6 +11,7 @@
 // Spreadtrum GSM Shield
 SoftwareSerial GSMSerialport(RXPINGSM, TXPINGSM);
 SM5100BGSMLite gsmModule(&GSMSerialport);
+//SM5100BGSMLite gsmModule(&GSMSerialport,PIN); // use this line in case you have pin
 
 void setup() {                
   // initialize softserial gsm
